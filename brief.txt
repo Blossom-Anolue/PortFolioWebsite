@@ -1,0 +1,280 @@
+==============================================================
+SITE: Blossom’s Portfolio
+==============================================================
+
+ROLE / CONTEXT
+--------------
+Role: You are the creative director and UI world-builder for a cozy, game-like personal portfolio website.
+Context: Build a portfolio for Blossom Anolue, a Software Engineering student, as if it were a cute interactive computer game world. The site should feel like a cozy pixel-inspired desktop adventure: feminine, playful, polished, and professional enough for recruiters, while still feeling personal and memorable.
+
+The website should present Blossom as a capable software engineering student with strong technical ability, creativity, and practical project experience. It should showcase projects, GitHub work, technical skills, experience, education, and contact information.
+
+BUILD STACK
+-----------
+1. Stitch (layout generation) — REQUIRED
+2. UI UX Pro Max (style / palette / typography selection)
+3. Firecrawl (reference scrape) — REQUIRED
+4. Magic / 21st.dev (hero enhancement) — REQUIRED FOR HERO
+5. Nano Banana 2 (optional imagery, if available)
+6. Brand skill
+7. Design skill
+8. Design System skill
+9. UI Styling skill
+
+PURPOSE
+-------
+A personal software engineering portfolio website that introduces Blossom Anolue, highlights featured projects and GitHub work, presents resume experience in a compelling way, and makes it easy for recruiters, hiring managers, professors, and collaborators to learn more and get in touch.
+
+==============================================================
+STEP 2 — BRAND VOICE
+==============================================================
+
+Voice archetype: Cozy Builder-Scholar
+
+Tone dimensions (scale 1–5):
+- Formal ↔ Casual:        3
+- Serious ↔ Playful:      4
+- Reserved ↔ Expressive:  4
+- Modern ↔ Timeless:      4
+
+Voice rules:
+- Sound polished, warm, and confident
+- Keep copy clear and concise
+- Blend technical credibility with personality
+- Slight cozy game energy is welcome, but never childish
+- Make the site feel personal, thoughtful, and approachable
+- Avoid sounding overly corporate or generic
+- Write like a smart student builder with creativity and purpose
+
+Messaging framework:
+- Tagline (≤7 words):        "Building thoughtful software with creativity."
+- Value prop (≤20 words):    "A cozy, game-inspired portfolio showcasing software engineering projects, technical skills, and practical experience."
+- Key phrases (3–5):
+  "Explore my work"
+  "Projects I’ve built"
+  "Code, design, and problem-solving"
+  "A portfolio with personality"
+  "Software engineering with creativity"
+
+==============================================================
+STEP 3 — DESIGN SYSTEM
+==============================================================
+
+Style keywords:
+cozy game, pixel-inspired, retro computer, girly, dark pink, soft white, cute, polished, modern, interactive, playful, clean, glowing UI, desktop-game aesthetic
+
+Preferred style direction:
+A cozy digital world blending retro pixel aesthetics with a polished modern portfolio. Think soft game UI, glowing cards, pixel-inspired details, floating windows, cute icons, subtle sparkles, and computer/desktop motifs. Feminine without being childish. Professional enough for recruiters, but still unique and memorable.
+
+COLOR SYSTEM
+------------
+- Primary:         dark pink / rose berry
+- Secondary:       dusty mauve / plum
+- Accent:          soft blush pink
+- Highlight:       warm white / cream glow
+- Surface-base:    near-white or very light blush
+- Surface-raised:  soft pink-tinted white
+- Ink:             charcoal / muted espresso instead of pure black
+- Success/info:    soft lavender / cool pastel blue if needed
+
+Contrast requirement:
+WCAG AA minimum, AAA preferred for body copy
+
+TYPOGRAPHY
+----------
+- Pixel-inspired or retro-gaming display font for headings, but still readable
+- Soft, clean sans-serif for body text
+- Optional rounded accent font for tiny labels or tags only
+- Body should remain professional and easy to read
+
+==============================================================
+STEP 4 — REFERENCE SCRAPE (for Firecrawl)
+==============================================================
+
+Reference URL: https://tamalsen.dev/
+
+Borrow:
+- overall layout rhythm
+- section flow
+- modern portfolio structure
+- hero composition
+- section transitions
+- navigation style
+- content grouping
+- overall tone
+
+Avoid:
+- copying exact palette or branding
+- anything too dark, too masculine, or too plain
+- anything that removes the cozy pixel-computer identity
+
+Use Firecrawl to scrape the reference site and apply its structural inspiration to this portfolio.
+
+==============================================================
+STEP 5 — SECTIONS & LAYOUT (for Stitch)
+==============================================================
+
+Stitch is required for layout generation in this build.
+Do not skip per-screen Stitch generation due to latency unless Stitch is fully unavailable.
+Prefer generating the main sections with Stitch even if it takes longer.
+If needed, generate sections sequentially instead of in parallel to avoid latency issues.
+
+Use Stitch to generate structured layouts for these sections:
+
+1. Hero
+- Name: Blossom Anolue
+- Title: Software Engineering Student | Builder | Problem Solver
+- Intro:
+  I’m a Software Engineering student at Gannon University who enjoys building useful, user-friendly applications and solving real-world problems through technology.
+- CTA buttons:
+  View Projects
+  Contact Me
+  Open GitHub
+- Visual direction:
+  cozy game start screen / desktop game menu / cute coding setup / pixel-computer atmosphere
+
+2. About Me
+- Short personal intro
+- Gannon University
+- Expected graduation: May 2026
+- GPA: 3.86/4.00
+- Focus on software development, UI/UX, problem-solving, and building practical tools
+
+3. Skills
+Present as interactive cards, stat panels, or inventory-style UI blocks
+
+Languages:
+- Python
+- Java
+- C++
+- HTML
+- CSS
+- SQL
+
+Core skills:
+- Data Structures and Algorithms
+- Software Development Life Cycle (SDLC)
+- UI/UX Design
+
+Tools:
+- Visual Studio
+- Android Studio
+- Microsoft SQL
+- Tableau
+- GitHub
+
+4. Featured Projects
+Present as game-card style project windows
+
+Project 1: Home Made Food Application
+- Android-based application developed with a team of four using Java and Android Studio
+- Designed the user interface and improved UX using feedback
+- Used Azure DevOps for requirements development and management
+
+Project 2: SecureWebOps Website Vulnerability Scanner & Browser Extension
+- Built a web-based vulnerability scanning tool and browser extension
+- Identifies common website security issues such as weak or missing HTTP security headers
+- Integrated OWASP ZAP APIs and Gemini AI for automated and passive scans
+- Displays vulnerability results in a clear, user-friendly interface
+
+5. GitHub / More Work
+- Dedicated section encouraging visitors to explore more repositories
+- Showcase GitHub as an important extension of the portfolio
+- Style like a terminal window, file explorer, or save/load menu
+- Include a button for GitHub profile
+
+6. Experience
+Use timeline cards or quest-log style layout
+
+7. Education
+- Gannon University, Erie, PA
+- Bachelor of Science in Software Engineering
+- Expected Graduation: May 2026
+- GPA: 3.86/4.00
+
+8. Organizations
+Display as collectible badges/cards
+
+9. Contact
+- Email: anolue001@gannon.edu
+- Phone: 814-315-8002
+- Location: Erie, PA
+- GitHub: add actual GitHub URL
+- LinkedIn: add actual LinkedIn URL
+
+==============================================================
+STEP 5B — HERO BLOCK (for Magic / 21st.dev)
+==============================================================
+
+21st.dev hero prompt:
+A cozy pixel-inspired personal portfolio hero for a software engineering student. The section should feel like a retro computer game start screen with feminine dark pink, blush, mauve, and soft white colors. Include a bold heading for “Blossom Anolue,” a subtitle “Software Engineering Student | Builder | Problem Solver,” a short intro paragraph, and three CTA buttons: “View Projects,” “Contact Me,” and “Open GitHub.” Use layered window-panel styling, subtle glow, pixel/computer decorative elements, rounded cards, and soft motion accents. It should feel polished, girly, professional, and game-inspired rather than childish.
+
+Magic / 21st.dev should be used for the hero section in this build unless completely unavailable.
+
+==============================================================
+STEP 6 — IMAGERY
+==============================================================
+
+Global art direction:
+cozy pixel-inspired computer world, retro game UI, feminine coding setup, cute desktop motifs, floating windows, stars, hearts, sparkles, keyboards, monitors, folders, and soft glowing interface elements
+
+Do NOT use flat generic corporate stock imagery.
+
+Fallback:
+If image generation is unavailable, use hand-authored SVG or stylized illustration assets that still match the cozy pixel-computer aesthetic.
+
+==============================================================
+STEP 7 — BRAND ASSETS
+==============================================================
+
+Logo brief:
+- Wordmark: Blossom’s Portfolio
+- Optional icon ideas:
+  pixel heart + monitor
+  cute folder icon
+  sparkly computer window
+  pixel flower + cursor
+- Style:
+  clean, girly, retro-computer, cozy, polished
+
+==============================================================
+STEP 8 — INTERACTIVE COMPONENTS
+==============================================================
+
+Use interactive components that fit the theme:
+- expandable project cards
+- hoverable skill badges
+- animated buttons
+- contact form
+- timeline cards
+- glowing tags
+- filterable project/GitHub area if possible
+
+==============================================================
+STEP 9 — ASSEMBLE & ANIMATE
+==============================================================
+
+Responsive breakpoints:
+mobile-first, tablet, desktop
+
+Accessibility:
+- visible labels
+- semantic landmarks
+- alt text on images
+- strong contrast
+- keyboard-friendly
+- prefers-reduced-motion honored
+
+Animation on assembly:
+- hero fade + rise
+- section reveal on scroll
+- subtle floating decorative elements
+- hover lift on cards and buttons
+- soft glowing transitions
+- no excessive motion
+
+OUTPUT
+------
+Save final website as index2.html.
+Also generate build-report-2.json.
+Do not overwrite index.html or build-report.json.
