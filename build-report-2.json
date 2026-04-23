@@ -1,0 +1,42 @@
+{
+  "pipeline": "/animated-website",
+  "generatedAt": "2026-04-21T00:00:00Z",
+  "briefSource": "brief.txt",
+  "output": {
+    "html": "index2.html",
+    "ogImage": "og-image-2.svg"
+  },
+  "mcp": {
+    "stitch": "fired",
+    "firecrawl": "fired",
+    "magic": "fell-back"
+  },
+  "skills": {
+    "brand": "fired",
+    "ui-ux-pro-max": "fired",
+    "design-system": "fired",
+    "design": "fell-back",
+    "ui-styling": "fired",
+    "nano-banana-2": "fell-back"
+  },
+  "images": {
+    "hero-character": "tier-3",
+    "pixel-monitor": "tier-3",
+    "folder-icon": "tier-3",
+    "sparkles": "tier-3",
+    "heart": "tier-3",
+    "logo": "tier-3",
+    "og-image": "tier-3",
+    "project-home-food": "tier-3",
+    "project-secureweb": "tier-3",
+    "github-terminal": "tier-3",
+    "badges": "tier-3"
+  },
+  "notes": {
+    "stitch": "Stitch project 7542147844038703755 created; hero screen generated successfully. Used as structural inspiration alongside the firecrawl reference; final hero hand-assembled for full design-token fidelity.",
+    "firecrawl": "Scraped https://tamalsen.dev/ — borrowed section rhythm (hero → expertise → featured project → portfolio grid → experience → contact), avoided its dark/masculine palette.",
+    "magic": "21st.dev builder returned a non-usable placeholder payload; fell back to hand-authored hero using the same design tokens.",
+    "nano-banana-2": "Skipped — environment lacks infsh auth. All imagery hand-authored as inline SVG per Tier 3 rules (pixel-friendly geometry, palette tokens only, motion-ready groups, WCAG AA color contrast).",
+    "design": "Logo, section icons, and social/OG card hand-authored as inline/static SVG using Step 3 tokens — Gemini-backed design skill path unavailable in this session."
+  }
+}
