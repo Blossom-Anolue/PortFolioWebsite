@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fef0f3"/>
+      <stop offset="0.5" stop-color="#fdf7f5"/>
+      <stop offset="1" stop-color="#f7c8d8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#ffe5ef" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffe5ef" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2"/>
+      <feColorMatrix values="0 0 0 0 0.78  0 0 0 0 0.24  0 0 0 0 0.5  0 0 0 0.06 0"/>
+      <feComposite in2="SourceGraphic" operator="in"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grain)" opacity="0.4"/>
+  <ellipse cx="300" cy="200" rx="380" ry="220" fill="url(#glow)"/>
+  <ellipse cx="950" cy="450" rx="320" ry="200" fill="url(#glow)" opacity="0.8"/>
+
+  <!-- Window chrome -->
+  <g transform="translate(140,120)">
+    <rect x="0" y="0" width="920" height="420" rx="28" fill="#ffffff" opacity="0.88" stroke="#e6aac4" stroke-width="2"/>
+    <rect x="0" y="0" width="920" height="48" rx="28" fill="#f7c8d8"/>
+    <rect x="0" y="28" width="920" height="20" fill="#f7c8d8"/>
+    <circle cx="30" cy="24" r="8" fill="#c73e7f"/>
+    <circle cx="58" cy="24" r="8" fill="#e0a8c7"/>
+    <circle cx="86" cy="24" r="8" fill="#c4b5e0"/>
+    <text x="460" y="30" text-anchor="middle" font-family="monospace" font-size="14" fill="#6b535a">blossom.portfolio.exe</text>
+
+    <!-- Content -->
+    <text x="60" y="150" font-family="'Press Start 2P', monospace" font-size="44" fill="#3a2b2e">Blossom Anolue</text>
+    <text x="60" y="200" font-family="monospace" font-size="22" fill="#9c6b8e">Software Engineering Student</text>
+    <text x="60" y="232" font-family="monospace" font-size="22" fill="#9c6b8e">Builder · Problem Solver</text>
+    <text x="60" y="310" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" fill="#3a2b2e">Building thoughtful software with creativity.</text>
+
+    <!-- Pixel heart -->
+    <g transform="translate(780,140)">
+      <rect x="0" y="10" width="16" height="16" fill="#c73e7f"/>
+      <rect x="16" y="0" width="16" height="16" fill="#c73e7f"/>
+      <rect x="32" y="0" width="16" height="16" fill="#c73e7f"/>
+      <rect x="48" y="10" width="16" height="16" fill="#c73e7f"/>
+      <rect x="64" y="0" width="16" height="16" fill="#c73e7f"/>
+      <rect x="80" y="0" width="16" height="16" fill="#c73e7f"/>
+      <rect x="96" y="10" width="16" height="16" fill="#c73e7f"/>
+      <rect x="16" y="16" width="80" height="16" fill="#c73e7f"/>
+      <rect x="32" y="32" width="48" height="16" fill="#c73e7f"/>
+      <rect x="48" y="48" width="16" height="16" fill="#c73e7f"/>
+      <rect x="32" y="16" width="16" height="8" fill="#fdc3de" opacity="0.9"/>
+    </g>
+
+    <!-- CTA pills -->
+    <g transform="translate(60,340)">
+      <rect x="0" y="0" width="220" height="52" rx="14" fill="#c73e7f"/>
+      <text x="110" y="33" text-anchor="middle" font-family="monospace" font-size="16" fill="#fff5f0">► View Projects</text>
+      <rect x="240" y="0" width="200" height="52" rx="14" fill="#fff" stroke="#c73e7f" stroke-width="2"/>
+      <text x="340" y="33" text-anchor="middle" font-family="monospace" font-size="16" fill="#c73e7f">Contact Me</text>
+      <rect x="460" y="0" width="180" height="52" rx="14" fill="#fef0f3" stroke="#9c6b8e" stroke-width="2"/>
+      <text x="550" y="33" text-anchor="middle" font-family="monospace" font-size="16" fill="#9c6b8e">GitHub ↗</text>
+    </g>
+  </g>
+
+  <!-- Sparkles -->
+  <g fill="#c73e7f">
+    <polygon points="100,100 108,120 128,128 108,136 100,156 92,136 72,128 92,120"/>
+    <polygon points="1080,90 1084,100 1094,104 1084,108 1080,118 1076,108 1066,104 1076,100"/>
+    <polygon points="1120,560 1126,574 1140,580 1126,586 1120,600 1114,586 1100,580 1114,574" opacity="0.7"/>
+  </g>
+</svg>
